@@ -1,0 +1,22 @@
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  height: 80vh;
+  max-height: 80vh;
+  margin: 20px;
+  border: 10px solid black;
+  border-radius: 25px;
+  align-items: stretch;
+  background-color: white;
+}
+
+.gridLeft {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  padding: 30px 70px;
+}
+.gridRight {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  border-left: 10px solid black;
+}
